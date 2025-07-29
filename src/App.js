@@ -292,10 +292,10 @@ function App() {
               <BotLogo />
               <div>
                 <h1 className={`text-2xl font-bold ${darkMode ? 'text-white' : 'text-gray-800'}`}>
-                  HealthHype
+                  FINTRUST
                 </h1>
                 <p className={`text-sm mt-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                  YOUR HEALTH, SIMPLIFIED.
+                  BY TEAM FANATIC_CODERZZ, YOUR FINANCIAL SECURITY GAURDS
                 </p>
               </div>
             </div>
