@@ -1,6 +1,6 @@
-# Healthcare / Medical Report Analyzer Chatbot
+# Financial Issues Chatbot
 
-A React-based medical report analysis chatbot powered by Groq's LLaMA AI. This application can process medical reports through image analysis, analyze lab results, and provide detailed explanations in simple language.
+A React-based financial/customer care chatbot powered by Groq's LLaMA AI. This application can process financial and personal documents through image analysis, analyze your queries, and provide detailed explanations in simple language.
 
 <div align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
@@ -10,22 +10,11 @@ A React-based medical report analysis chatbot powered by Groq's LLaMA AI. This a
   <img src="https://img.shields.io/badge/Vercel-Deployed-brightgreen" alt="Vercel">
 </div>
 
-## Demo
 
-<img src="https://github.com/rag3frost/healthcare-bot-v2/blob/main/2025-01-26-12-09-57.gif" alt="Medical Report Analyzer Demo" width="500">
-<img src="https://github.com/rag3frost/healthcare-bot-v2/blob/main/2025-01-26-12-12-18_1.gif" alt="Medical Report Analyzer Demo" width="500">
-<img src="https://github.com/rag3frost/healthcare-bot-v2/blob/main/2025-01-26-12-13-16.gif" alt="Medical Report Analyzer Demo" width="500">
-
----
 
 ## Features
 
-- 🏥 **Medical Report Analysis**: Detailed explanations of medical reports.
-- 📷 **Image Processing**: Extract and analyze text from medical report images.
-- 🤖 **Two-Stage LLaMA AI Processing**:
-  1. Initial image analysis and text extraction.
-  2. Detailed medical analysis and interpretation.
-- 🎯 **Precise Analysis**: Accurate analysis of medical reports and documents.
+- 🎯 **Precise Analysis**: Accurate analysis of documents.
 - 🗣️ **Voice Input Support**: Speak your queries instead of typing.
 - 💬 **Interactive Chat Interface**: User-friendly chat interface.
 - ✨ **Markdown Support**: Formatted responses for better readability.
@@ -35,10 +24,10 @@ A React-based medical report analysis chatbot powered by Groq's LLaMA AI. This a
 
 This chatbot features a sophisticated document processing pipeline:
 
-1. Upload a medical document image.
+1. Upload a document image.
 2. The image is processed directly by LLaMA's vision model.
 3. The AI provides structured analysis of the image content.
-4. Ask follow-up questions about specific aspects of the report.
+4. Ask follow-up questions about specific aspects of the document.
 5. The entire process happens seamlessly in real-time.
 
 ---
@@ -68,8 +57,8 @@ Before you begin, ensure you have:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rag3frost/healthcare-bot-v2.git
-   cd healthcare-bot-v2
+   git clone 
+   cd CHATBOT_FINTRUST
    ```
 
 2. Install dependencies:
@@ -92,28 +81,6 @@ The application will open in your default browser at `http://localhost:3000`.
 
 ---
 
-## Usage
-
-1. **Upload a Medical Report**:
-   - Click the image icon in the input area.
-   - Select a medical report image (supported formats: jpg, png).
-   - The AI will automatically analyze the image.
-
-2. **Voice Input**:
-   - Click the microphone icon for voice input.
-   - Speak your question or description.
-   - The text will appear in the input area.
-
-3. **View Analysis**:
-   - The chatbot will provide a detailed analysis.
-   - Results are formatted with clear sections.
-   - Medical terms are explained in simple language.
-
-4. **Dark/Light Mode**:
-   - Toggle between dark and light modes using the sun/moon icon.
-   - Your preference is automatically saved.
-
----
 
 ## Contributing
 
@@ -129,7 +96,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/rag3frost/healthcare-bot-v2/blob/main/LICENSE.txt) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Garvanand/CHATBOT_FINTRUST/blob/main/LICENSE.txt) file for details.
 
 ---
 
@@ -143,9 +110,8 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 ## Contact
 
-For questions or feedback, reach out to [Sujal Sakhare](https://github.com/rag3frost).
+For questions or feedback, reach out to [GARV ANAND](https://github.com/Garvanand).
 
-**Project Link**: [https://github.com/rag3frost/healthcare-bot-v2](https://github.com/rag3frost/healthcare-bot-v2)
 
 ---
 
@@ -155,6 +121,5 @@ For questions or feedback, reach out to [Sujal Sakhare](https://github.com/rag3f
 
 ---
 
-Made with ❤️ by [Sujal Sakhare](https://github.com/rag3frost)
 
 

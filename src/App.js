@@ -87,7 +87,7 @@ function App() {
           model: 'llama-3.3-70b-versatile',
           messages: [{
             role: 'system',
-            content: 'You are a helpful medical assistant that can analyze medical documents and answer general medical questions.'
+            content: 'You are a helpful fintech assistant that can analyze financial and personal documents and answer general fintech and financial compliances and fintal rules and regulation questions.'
           }, {
             role: 'user',
             content: text
@@ -220,7 +220,6 @@ function App() {
     }
   };
 
-  // Auto-scroll to bottom when new messages arrive
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -236,7 +235,6 @@ function App() {
     }
   }, [messages]);
 
-  // Initialize dark mode from localStorage
   useEffect(() => {
     const savedMode = localStorage.getItem('darkMode');
     if (savedMode) {
@@ -254,7 +252,6 @@ function App() {
     }
   }, [darkMode]);
 
-  // Voice input handling
   const handleVoiceInput = () => {
     if ('webkitSpeechRecognition' in window) {
       const recognition = new window.webkitSpeechRecognition();
@@ -319,7 +316,7 @@ function App() {
                 <SmallBotLogo />
               </div>
               <div className="welcome-message">
-                <p>Hello! 👋 I'm here to assist you with your healthcare needs. Whether you have questions about symptoms, medications, or wellness tips, feel free to ask. How can I help you today?</p>
+                <p>Hello! 👋 I'm here to assist you with your all financial needs. Whether you have questions about services, issues, compliances, or financial tips, feel free to ask. How can I help you today?</p>
               </div>
             </div>
           )}
@@ -387,7 +384,7 @@ function App() {
                   }
                 }}
                 placeholder={pendingImage 
-                  ? "What would you like to know about this medical document?" 
+                  ? "What would you like to know about this financial document?" 
                   : "Type your message..."}
                 className="chat-input dark:bg-gray-800 dark:text-white dark:border-gray-700"
                 rows="1"
